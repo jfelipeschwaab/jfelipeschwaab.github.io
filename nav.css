@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+    display: block;
+}
+
+.inner_header {
+
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+
+  }
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    color: #fff;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    margin: 34px;
+    margin-right: 0px;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.navigation a li:hover{
+    color: #F6BF41;
+}
+
+.navigation a:last-child{
+    padding-right: 0px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+#active {
+    color: #F6BF41;
+    border-bottom: 1px solid #F6BF41;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #F6BF41, #fbb512); /* Adjust the angle and colors as needed */
+    -webkit-background-clip: text;
+    color: transparent;
+}
