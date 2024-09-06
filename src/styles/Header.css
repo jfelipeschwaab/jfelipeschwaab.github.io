@@ -1,4 +1,3 @@
-/* Estilo básico */
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +36,6 @@
     animation: gradientMove 3s ease-in-out infinite;
 }
 
-/* Keyframes para mover o gradiente */
 @keyframes gradientMove {
     0% {
         background-position: 0% 50%;
