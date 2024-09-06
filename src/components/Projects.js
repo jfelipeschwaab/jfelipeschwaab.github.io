@@ -25,8 +25,8 @@ const Projects = () => {
                 <SiGit title="Git" />
               </div>
               <div className="project-links">
-                <a href="https://github.com/seuusuario/portfolio" target="_blank" rel="noopener noreferrer">Ver Código</a>
-                <a href="https://seuportfolio.com" target="_blank" rel="noopener noreferrer">Ver Online</a>
+                <a href="https://github.com/jfelipeschwaab/jfelipeschwaab.github.io" target="_blank" rel="noopener noreferrer">Ver Código</a>
+                <a href="https://jfelipeschwaab.github.io" target="_blank" rel="noopener noreferrer">Ver Online</a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Projects = () => {
           <div className="project-card">
             <div className="project-info">
               <h2>Aplicativo de Tarefas</h2>
-              <p>Um aplicativo simples de lista de tarefas desenvolvido com Django e React.</p>
+              <p>Um aplicativo simples de lista de tarefas desenvolvido com Django.</p>
               <div className="project-tech">
                 <SiPython title="Python" />
                 <SiDjango title="Django" />
