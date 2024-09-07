@@ -21,8 +21,8 @@ const Header = () => {
           <li><Link to="/projects">Projetos</Link></li>
         </ul>
         <div className="social-icons">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://github.com/jfelipeschwaab" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/joão-felipe-schwaab/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </nav>
       <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
