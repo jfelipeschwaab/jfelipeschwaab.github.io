@@ -6,9 +6,7 @@ import '../styles/Projects.css';
 
 const Projects = () => {
   return (
-    <div className="projects-page">
-      <Header />
-      
+    <div className="projects-page">      
       <div className="projects-container">
         <h1>Meus Projetos</h1>
         <div className="projects-grid">

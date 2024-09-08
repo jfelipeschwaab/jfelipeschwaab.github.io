@@ -117,7 +117,7 @@
     }
   
     .social-icons {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
   
